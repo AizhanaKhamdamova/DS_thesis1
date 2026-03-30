@@ -1,0 +1,28 @@
+Neural ODE Prototype Test Log
+Date: 2026-03-30 13:56:54
+Device: cpu
+
+Experiment parameters:
+batch_size = 64
+batch_time = 20
+data_size = 2000
+niters = 2500
+test_freq = 200
+lr = 0.001
+
+Model:
+ODEFunc3D
+Layers:
+- Linear(3, 64)
+- Tanh
+- Linear(64, 64)
+- Tanh
+- Linear(64, 32)
+- Tanh
+- Linear(32, 3)
+
+Test initial condition:
+[[ 0.8  0.6 -0.4]]
+
+Metric:
+MAE = 0.132090
