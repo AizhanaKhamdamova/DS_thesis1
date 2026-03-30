@@ -178,13 +178,17 @@ Netron
 ├── README.md
 ├── requirements.txt
 ├── ds_thesis1.ipynb
+├── best_model_3d.pth
+├── nODE_3d_learning_curve.pdf
 ├── png_3d/
 │   └── *.png
 ├── docs/
 │   ├── torchinfo_summary.txt
+│   ├── odefunc3d.onnx
 │   └── netron_model.png
 ├── results/
 │   ├── test_log.txt
+│   └── screenshots/
 └── .github/
     └── workflows/
         └── ci.yml
